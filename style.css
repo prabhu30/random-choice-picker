@@ -43,6 +43,7 @@ textarea {
 .choices {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .choice {
@@ -52,8 +53,10 @@ textarea {
     background-color: mediumaquamarine;
     border-radius: 10px;
     padding: 0.5rem;
+    margin: 10px;
 }
 
 .choices .highlight {
-    background-color: lightcoral;
+    color: #fff;
+    background-color: rgb(0, 1, 87);
 }
